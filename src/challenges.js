@@ -1,7 +1,14 @@
 // Desafio 1
-function compareTrue() {
-  
+let climaEnsorarado = true;
+let diaLindo = false;
+function compareTrue(climaEnsorarado, diaLindo) {
+  if(climaEnsorarado == true && diaLindo == true ){
+    return true;
+  } else {
+    return false;
+  }
 }
+
 
 // Desafio 2
 function calcArea() {
