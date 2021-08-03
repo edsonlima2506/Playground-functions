@@ -19,7 +19,7 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-let frase = 'Foguete';
+let frase = 'Go Trybe!';
 function splitSentence(frase) {
   let palavras = frase.split(' ');
   let array = [];
@@ -27,7 +27,6 @@ function splitSentence(frase) {
 
   return array;
 }
-console.log(splitSentence(frase));
 
 // Desafio 4
 function concatName() {
