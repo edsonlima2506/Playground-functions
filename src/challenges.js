@@ -27,12 +27,14 @@ function splitSentence(frase) {
   return palavras;
 }
 
-console.log(splitSentence(frase));
-
 // Desafio 4
-function concatName() {
-  
+let fullName = ['edson', 'eduardo', 'costa', 'de', 'lima']
+function concatName(fullName) {
+  let name = fullName[0] + ', ' + fullName[fullName.length - 1]
+  return name;
 }
+
+console.log(concatName(fullName));
 
 // Desafio 5
 function footballPoints() {
