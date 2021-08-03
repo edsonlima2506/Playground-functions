@@ -11,8 +11,11 @@ function compareTrue(climaEnsorarado, diaLindo) {
 
 
 // Desafio 2
-function calcArea() {
-  
+let base = 10;
+let height = 50;
+function calcArea(base, height) {
+  calcArea = (base * height) / 2;
+  return calcArea;
 }
 
 // Desafio 3
