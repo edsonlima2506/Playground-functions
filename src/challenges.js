@@ -60,12 +60,25 @@ function highestCount(arrayNumeros) {
   console.log(listaOrganizada);
   return quantidade;
 }
-console.log(highestCount(arrayNumeros));
-// Desafio 7
-function catAndMouse() {
-  
-}
 
+
+// Desafio 7
+let cat1 = 7;
+let cat2 = 7;
+function catAndMouse(cat1, cat2) {
+  let maisPerto = '';
+  if(cat1 > cat2){
+    maisPerto = "cat1"
+    return maisPerto;
+  } else if(cat1 < cat2){
+    maisPerto = "cat2";
+    return maisPerto;
+  } else if(cat1 == cat2){
+    maisPerto = "os gatos trombam e o rato foge";
+    return maisPerto;
+  }
+}
+console.log(catAndMouse(cat1, cat2));
 // Desafio 8
 function fizzBuzz() {
   
