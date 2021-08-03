@@ -78,12 +78,25 @@ function catAndMouse(cat1, cat2) {
     return maisPerto;
   }
 }
-console.log(catAndMouse(cat1, cat2));
+// console.log(catAndMouse(cat1, cat2));
 // Desafio 8
-function fizzBuzz() {
-  
+let fizzBuzzNumeros = [2, 15, 7, 9, 45];
+function fizzBuzz(fizzBuzzNumeros) {
+  let resultado = [];
+  for(let i = 0; i < fizzBuzzNumeros.length; i++){
+    if((fizzBuzzNumeros[i] % 3) == 0 && (fizzBuzzNumeros[i] % 5) != 0){
+      resultado.push('fizz');
+    } else if((fizzBuzzNumeros[i] % 3) != 0 && (fizzBuzzNumeros[i] % 5) == 0){
+      resultado.push('buzz');
+    } else if ((fizzBuzzNumeros[i] % 3) == 0 && (fizzBuzzNumeros[i] % 5) == 0){
+      resultado.push('fizzBuzz');
+    } else {
+      resultado.push('bug!');
+    }
+  }
+  return resultado;
 }
-
+console.log(fizzBuzz(fizzBuzzNumeros));
 // Desafio 9
 function encode() {
   
@@ -103,4 +116,4 @@ module.exports = {
   footballPoints,
   highestCount,
   splitSentence,
-};
+}
