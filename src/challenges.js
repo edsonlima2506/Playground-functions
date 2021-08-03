@@ -19,7 +19,7 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-let frase = 'Go Trybe!';
+let frase = 'go Trybe';
 function splitSentence(frase) {
   let palavras = frase.split(' ');
   let array = [];
