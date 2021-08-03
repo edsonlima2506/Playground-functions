@@ -34,11 +34,13 @@ function concatName(fullName) {
   return name;
 }
 
-console.log(concatName(fullName));
-
 // Desafio 5
-function footballPoints() {
-  
+let wins = 14;
+let ties = 8;
+function footballPoints(wins, ties) {
+  let points = (wins * 3) + ties;
+
+  return points;
 }
 
 // Desafio 6
