@@ -44,7 +44,7 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-let arrayNumeros = [0, 0, 0];
+let arrayNumeros = [9, 1, 2, 3, 9, 5, 7];
 let quantidade = 0;
 function highestCount(arrayNumeros) {
   function maiorNumero(a, b) {
@@ -59,6 +59,7 @@ function highestCount(arrayNumeros) {
   }
   return quantidade;
 }
+console.log(highestCount(arrayNumeros));
 // Desafio 7
 function catAndMouse() {
   
