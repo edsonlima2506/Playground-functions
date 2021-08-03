@@ -30,7 +30,7 @@ function splitSentence(frase) {
 // Desafio 4
 let fullName = ['edson', 'eduardo', 'costa', 'de', 'lima']
 function concatName(fullName) {
-  let name = fullName[0] + ', ' + fullName[fullName.length - 1]
+  let name = fullName[fullName.length - 1] + ', ' + fullName[0];
   return name;
 }
 
