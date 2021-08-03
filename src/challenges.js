@@ -19,14 +19,15 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-let frase = 'go Trybe';
+let frase = 'vamo que vamo';
+
 function splitSentence(frase) {
   let palavras = frase.split(' ');
-  let array = [];
-  array.push(palavras);
 
-  return array;
+  return palavras;
 }
+
+console.log(splitSentence(frase));
 
 // Desafio 4
 function concatName() {
