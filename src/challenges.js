@@ -79,7 +79,7 @@ function catAndMouse(mouse, cat1, cat2) {
     return maisPerto;
   }
 }
-console.log(catAndMouse(cat1, cat2, mouse));
+
 // Desafio 8
 let fizzBuzzNumeros = [2, 15, 7, 9, 45];
 function fizzBuzz(fizzBuzzNumeros) {
@@ -99,13 +99,57 @@ function fizzBuzz(fizzBuzzNumeros) {
 }
 
 // Desafio 9
-let param = ''
-function encode() {
-  
+let word = 'Ola, there!';
+function encode(word) {
+  let textoCodificado = [];
+  let stringCodificada = "";
+  for(let key in word){
+    if(word[key] === "a" || word[key] === "A"){
+      textoCodificado.push("1");
+    } else if(word[key] === "e" || word[key] === "E"){
+      textoCodificado.push("2");
+    } else if(word[key] === "i" || word[key] === "I"){
+      textoCodificado.push("3");
+    } else if(word[key] === "o" || word[key] === "O"){
+      textoCodificado.push("4");
+    } else if(word[key] === "u" || word[key] === "U"){
+      textoCodificado.push("5");
+    } else {
+      textoCodificado.push(word[key]);
+    }
+  }
+  for(let key in textoCodificado){
+    stringCodificada += textoCodificado[key];
+  }
+  return stringCodificada;
 }
-function decode() {
-  
+
+let string = "";
+
+function decode(string) {
+  let textoDecodificado = [];
+  let stringDecodificada = "";
+  for(let key in string){
+    if(string[key] === "1"){
+      textoDecodificado.push("a");
+    } else if(string[key] === "2"){
+      textoDecodificado.push("e");
+    } else if(string[key] === "3"){
+      textoDecodificado.push("i");
+    } else if(string[key] === "4"){
+      textoDecodificado.push("o");
+    } else if(string[key] === "5"){
+      textoDecodificado.push("u");
+    } else {
+      textoDecodificado.push(string[key]);
+    }
+  }
+  for(let key in textoDecodificado){
+    stringDecodificada += textoDecodificado[key];
+  }
+  return stringDecodificada;
 }
+  console.log(decode(string));
 
 module.exports = {
   calcArea,
