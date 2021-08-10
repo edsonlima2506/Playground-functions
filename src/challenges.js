@@ -2,7 +2,7 @@
 let climaEnsorarado = true;
 let diaLindo = false;
 function compareTrue(climaEnsorarado, diaLindo) {
-  if(climaEnsorarado == true && diaLindo == true ){
+  if(climaEnsorarado === true && diaLindo === true ){
     return true;
   } else {
     return false;
