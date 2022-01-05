@@ -12,7 +12,7 @@
   <img align="center" alt="Edson-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 
-## Instalando dependencias
+## Instalando as dependências
 
 1. Clone o repositório
   * `git clone git@github.com:edsonlima2506/Playgrpund-functions.git`
