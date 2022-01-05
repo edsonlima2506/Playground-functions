@@ -15,9 +15,9 @@
 ## Instalando dependencias
 
 1. Clone o repositório
-  * `git clone git@github.com:edsonlima2506/Jogo-trunfo.git`
+  * `git clone git@github.com:edsonlima2506/Playgrpund-functions.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd Jogo-trunfo`
+    * `cd Playground-functions`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
